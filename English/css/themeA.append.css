@@ -194,6 +194,14 @@ a:focus {
     width: 70px;
     height: 70px;
 }
+#community-banner {
+    width: 575px;
+    height: 250px;
+}
+#profile-banner {
+    width: 575px;
+    height: 250px;
+}
 #profile-header #profile-user-name {
     width: 50%;
     position: absolute;
