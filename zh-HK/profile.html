@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html xmlns:ng="http://angularjs.org" ng-app id="ng-app">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=0.5">
+<title>Master Template</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/themeA.css">
+<link rel="stylesheet" href="css/icon.css">
+<link rel="stylesheet" href="css/mainWall.css">
+<link rel="stylesheet" href="css/boxSetup.css">
+<link rel="stylesheet" href="css/textfield.css">
+<link rel="stylesheet" href="css/themeA.append.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="header-wrapper">
+            <p class="pull-left">LOGOFO</p>
+            <a href="#"><img src="images/general/icon_png/w_profile.png" /></a>
+            <a href="#"><img src="images/general/icon_png/w_notification.png" /></a>
+            <form id="main-search" name="main-search" method="post" action="">
+                <label for="Main Search"></label>
+                <input type="text" name="main-search-field" id="main-search-field" class="general-textfield" />
+                <input type="submit" id="submit-search" name="submit-search" value=" " class="icon-box icon-title-search">
+            </form>
+            <div class="right-side">
+                <a href="#">我的首頁</a>
+                <a href="#"><img src="images/general/icon_png/w_home.png" /></a>
+                <a href="#"><img src="images/general/icon_png/w_setup.png" /></a>
+            </div>
+        </div>
+    </div>
+    <div class="themeA-container">
+        <div class="row">
+        <div class="col-md-6 col-sm-6 col-xs-6">
+            <div id="profile-header">
+                <ul>
+                    <li><div><img id="profile-banner" src="images/community/banner.jpg" /><a href="#"><span class="icon-box-2 icon-title-edit-photo"></span><span class="icon-box-2 icon-box-black-op05"></span></a></div></li>
+                    <li id="profile-header-menu">
+                        <div><img src="images/home/photo_slider.jpg" alt="profile-pic" /><a href="#"><span class="icon-box-2 icon-title-edit-photo"></span><span class="icon-box-2 icon-box-black-op05"></span></a></div>
+                        <p id="profile-user-name">Keith Lei</p>
+                        <div id="menu-title">
+                            <a href="#">最近活動</a>
+                            <div class="divider-cus"></div>
+                            <a href="#">社群</a>
+                            <div class="divider-cus"></div>
+                            <a href="#">朋友</a>
+                        </div>
+                        <div class="pull-right">
+                            <a class="toolsbox toolsbox-start" href="#">通知</a>
+                            <a class="toolsbox toolsbox-end" href="#"><span class="icon-title-contentSetup"></span></a>
+                        </div>
+                        <ul class="subtoolsbox">
+                            <li><a href="#">所有帖子</a></li>
+                            <li><a href="#">off</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div><!--Profile Header End -->
+            <div id="wall">
+                <div class="general-box">
+                <div class="wall-title">
+                    <span class="wall-icon icon-title-friendwall"></span><a href="#">最近</a>
+                    <form id="contentSearchwrapper" name="contentSearch" class="pull-right" method="post" action="">
+                        <label for="User Comment"></label>
+                        <input type="text" name="main-search-field" id="main-search-field" class="general-textfield" />
+                        <input id="submit-content-search" name="submit-content-search" type="submit" value=" " class="icon-box icon-title-search" />
+                    </form>
+                </div>
+                </div>
+                <div class="general-box">
+                    <ul>
+                        <li><img class="wall-userpic" src="images/home/wall_userPic.jpg" /><p class="wall-user-actState"><a href="#">Iris Au Yeung</a><span class="wall-user-actState-from"></span><a href="#">龍年媽媽會</a><span class="wall-user-actState-share"></span></p><span class="wall-user-actState-date">3月20日</span><span class="wall-user-actState-time">15:25</span></li>
+                        <li><p class="wall-user-post-text">Post contentPost contentPost contentPost contentPost contentPost contentPost contentPost contentPost contentPost contentPost contentPost contentPost contentPost contentPost contentPost contentPost contentPost contentPost contentPost contentPost contentPost contentPost contentPost contentPost contentPost contentPost contentPost contentPost contentPost content</p></li>
+                        <li><a class="btn-like" href="#">讚好</a><a class="btn-comment" href="#">回應</a></li>
+                    </ul>
+                    <ul class="wall-user-post-respond">
+                        <li><p class="whose-like"><a href="#">Wynee Lam</a></p></li>
+                        <li><a href="#">檢視另外8則回應</a></li>
+                        <ul>
+                            <li><img class="wall-userpic" src="images/home/wall_userPic.jpg" /><div><p class="user-comment"><a href="#">Iris Au Yeung</a>Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~</p><span class="wall-user-actState-date">3月20日</span><span class="wall-user-actState-time">15:25</span><a class="btn-like" href="#">讚好</a></div></li>
+                            <li><img class="wall-userpic" src="images/home/wall_userPic.jpg" /><div><p class="user-comment"><a href="#">Iris Au Yeung</a>Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~<img class="wall-user-uploadimage" src="images/home/wall_userUploadImage.jpg" /></p><span class="wall-user-actState-date">3月20日</span><span class="wall-user-actState-time">15:25</span><a class="btn-like" href="#">讚好</a></div></li>
+                        </ul>
+                        <li><a><img class="wall-userpic" src="images/home/wall_userPic.jpg" /></a>
+                                <form id="userCommentwrapper" name="userComment" method="post" action="">
+                                <label for="User Comment"></label>
+                                <input type="text" name="userCommentfield" id="userCommentfield" class="general-textfield" placeholder="發表一個回應..." />
+                                <input id="usercomment-uploadimage" name="usercomment-uploadimage" type="submit" value=" " class="icon-box icon-title-uploadImage" />
+                                </form>
+                         </li>
+                    </ul>
+                </div>
+                <div id="wall-forum">
+                <div class="general-box">
+                    <ul>
+                        <li><img class="wall-userpic" src="images/home/wall_userPic.jpg" /><p class="wall-user-actState"><a href="#">Iris Au Yeung</a><span class="wall-user-actState-from"></span><a href="#">龍年媽媽會</a><span class="wall-user-actState-ask"></span></p><span class="wall-forum-post-time">5</span><span class="wall-forum-post-last-time">5</span><div id="wall-forum-info"><span class="shortcut-box text-center">?</span><span class="wall-forum-post-checked">1925191</span><span class="wall-forum-post-reply">1925112</span></div></li>
+                        <li><p class="wall-user-post-text"><a href="#">Post contentPost contentPost contentPost contentPost contentPost contentPost contentPost2013七月媽 WH?TAPPS GROUP entPost</a> contentPost contentPost contentPost contentPost contentPost contentPost contentPost contentPost contentPost contentPost contentPost contentPost contentPost contentPost contentPost contentPost contentPost content</p></li>
+                        <li><a class="btn-like" href="#">讚好</a><a class="btn-comment" href="#">回應</a></li>
+                    </ul>
+                    <ul class="wall-user-forum-respond">
+                        <li><p class="whose-like"><a href="#">Wynee Lam</a></p></li>
+                        <ul>
+                            <li><div class="wall-user-forum-comment"><div class="pull-right"><img class="wall-userpic" src="images/home/wall_userPic.jpg" /><span class="wall-user-actState-date">3月20日</span><span class="wall-user-actState-time">15:25</span></div><div><p class="user-comment"><a href="#">Iris Au Yeung</a>Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~</p><a class="btn-like" href="#">讚好</a></div></div></li>
+                            <li><div class="wall-user-forum-comment"><div class="pull-right"><img class="wall-userpic" src="images/home/wall_userPic.jpg" /><span class="wall-user-actState-date">3月20日</span><span class="wall-user-actState-time">15:25</span></div><div><p class="user-comment"><a href="#">Iris Au Yeung</a>Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~Thanks all~~</p><a class="btn-like" href="#">讚好</a></div></div></li>
+                            <li><a href="#">檢視另外8則回應</a></li>
+                        </ul>
+                    <li><a><img class="wall-userpic" src="images/home/wall_userPic.jpg" /></a>
+                                <form id="userCommentwrapper" name="userComment" method="post" action="">
+                                <label for="User Comment"></label>
+                                <input type="text" name="userCommentfield" id="userCommentfield" class="general-textfield" placeholder="發表一個回應..." />
+                                <input id="usercomment-uploadimage" name="usercomment-uploadimage" type="submit" value=" " class="icon-box icon-title-uploadImage" />
+                                </form>
+                    </li>
+                    </ul>
+                </div>
+                <div class="general-box">
+                    <ul>
+                        <li><img class="wall-userpic" src="images/home/wall_userPic.jpg" /><p class="wall-user-actState"><a href="#">Iris Au Yeung</a><span class="wall-user-actState-from"></span><a href="#">龍年媽媽會</a><span class="wall-user-actState-ask"></span></p><span class="wall-forum-post-time">5</span><span class="wall-forum-post-last-time">5</span><div id="wall-forum-info"><span class="shortcut-box text-center">?</span><span class="wall-forum-post-checked">1925191</span><span class="wall-forum-post-reply">1925112</span></div></li>
+                        <li><p class="wall-user-post-text"><a href="#">Post contentPost contentPost contentPost contentPost contentPost contentPost contentPost2013七月媽 WH?TAPPS GROUP entPost</a> contentPost contentPost contentPost contentPost contentPost contentPost contentPost contentPost contentPost contentPost contentPost contentPost contentPost contentPost contentPost contentPost contentPost content</p></li>
+                        <li><a class="btn-like" href="#">讚好</a><a class="btn-comment" href="#">回應</a></li>
+                    </ul>
+                    <ul class="wall-user-forum-respond">
+                    <li><a><img class="wall-userpic" src="images/home/wall_userPic.jpg" /></a>
+                                <form id="userCommentwrapper" name="userComment" method="post" action="">
+                                <label for="User Comment"></label>
+                                <input type="text" name="userCommentfield" id="userCommentfield" class="general-textfield" placeholder="發表一個回應..." />
+                                <input id="usercomment-uploadimage" name="usercomment-uploadimage" type="submit" value=" " class="icon-box icon-title-uploadImage" />
+                                </form>
+                    </li>
+                    </ul>
+                </div>
+                </div>
+            </div><!--Wall End -->
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-4 ">
+            <div id="profile-about" class="general-box">
+                <div class="con-title">
+                    <span class="icon-box icon-box-blueLight icon-title-profile-about"></span><a href="#">關於</a>
+                </div>
+                <div class="content-wrapper">
+                    <ul>
+                        <li><span class="icon-box icon-title-liveplace"></span><p><a href="#">Hong Kong</a></p></li>
+                        <li><span class="icon-box icon-title-liveplace"></span><p><a href="#">Hong Kong</a></p></li>
+                        <li><span class="icon-box icon-title-liveplace"></span><p><a href="#">Hong Kong</a></p></li>
+                        <li><span class="icon-box icon-title-liveplace"></span><p><a href="#">Hong Kong</a></p></li>
+                        <li><span class="icon-box icon-title-liveplace"></span><p><a href="#">Hong Kong</a></p></li>
+                        <li><span class="icon-box icon-title-liveplace"></span><p><a href="#">Hong Kong</a></p></li>
+                        <li><span class="icon-box icon-title-liveplace"></span><p><a href="#">Hong Kong</a></p></li>
+                        <li><span class="icon-box icon-title-liveplace"></span><p><a href="#">Hong Kong</a></p></li>
+                        <li><span class="icon-box icon-title-liveplace"></span><p><a href="#">Hong Kong</a></p></li>
+                    </ul>
+                </div>
+            </div><!--About End -->
+            <div id="newCommunity" class="general-box">
+                <div class="con-title">
+                    <span class="icon-box icon-box-green icon-title-newcommunity"></span><a href="#">社群</a>
+                    <a href="#" class="pull-right">查看全部</a>
+                </div>
+                <ul class="newCommunity-info">
+                    <li><a href="#"><img src="images/community/banner.jpg" /></a><p><a href="#"><b>2013年爸爸媽媽會</b></a><span class="community-attribute">(新加入)</span><br /><span class="community-attribute">不公開的群組</span><span class="community-member-counter">258個會員</span></p><a class="btn-general" href="#">加入</a></li>
+                    <li><a href="#"><img src="images/community/banner.jpg" /></a><p><a href="#"><b>2013年爸爸媽媽會</b></a><br /><span class="community-attribute">不公開的群組</span><span class="community-member-counter">258個會員</span></p><a class="btn-general" href="#">加入</a></li>
+                    <li><a href="#"><img src="images/community/banner.jpg" /></a><p><a href="#"><b>2013年爸爸媽媽會</b></a><br /><span class="community-attribute">不公開的群組</span><span class="community-member-counter">258個會員</span></p><a class="btn-general" href="#">加入</a></li>
+                </ul>
+            </div><!--NewCommunity End -->
+            <div id="friends" class="general-box">
+                <div class="con-title">
+                    <span class="icon-box icon-box-purpleLight icon-title-friends"></span><a href="#">朋友</a>
+                </div>
+                <div class="friends-info">
+                    <ul class="photo-list">
+                        <li><a href="#"><p class="friends-info-title">Keith LeiKeith LeiKeith Lei</p><span class="mask-100percent-height"></span><img src="images/home/photo_friends.jpg" /></a></li>
+                        <li><a href="#"><p class="friends-info-title">Keith Lei</p><span class="mask-100percent-height"></span><img src="images/home/photo_friends.jpg" /></a></li>
+                        <li><a href="#"><p class="friends-info-title">Keith Lei</p><span class="mask-100percent-height"></span><img src="images/home/photo_friends.jpg" /></a></li>
+                        <li><a href="#"><p class="friends-info-title">Keitith LeiKeith LeiKeithh Lei</p><span class="mask-100percent-height"></span><img src="images/home/photo_friends.jpg" /></a></li>
+                    </ul>
+                    <ul class="photo-list">
+                        <li><a href="#"><p class="friends-info-title">Keitith LeiKeith LeiKeithh Lei</p><span class="mask-100percent-height"></span><img src="images/home/photo_friends.jpg" /></a></li>
+                        <li><a href="#"><p class="friends-info-title">Keitith LeiKeith LeiKeithh Lei</p><span class="mask-100percent-height"></span><img src="images/home/photo_friends.jpg" /></a></li>
+                        <li><a href="#"><p class="friends-info-title">Keith Lei</p><span class="mask-100percent-height"></span><img src="images/home/photo_friends.jpg" /></a></li>
+                        <li><a href="#"><p class="friends-info-title">Keitith LeiKeith LeiKeithh Lei</p><span class="mask-100percent-height"></span><img src="images/home/photo_friends.jpg" /></a></li>
+                    </ul>
+                </div>
+            </div><!--Friends End -->
+        </div>
+        </div>
+    </div>
+    <div id="back-to-top">
+        <a href="#"><span class="icon-title-arrow-up"></span>Top</a>
+    </div>
+<script type="text/javascript" src="js/angular.min.js"></script>
+<script type="text/javascript" src="js/ui-bootstrap-tpls-0.10.0.min.js"></script>
+</body>
+</html>
