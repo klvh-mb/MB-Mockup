@@ -60,10 +60,10 @@
     background-color: #fff;
     display: inline-block;
     height: 70px;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
     margin-left: 10px;
     position: relative;
-    width: 47%;
+    width: 31%;
 }
 .memberImageBox {
     display: inline-block;
@@ -88,7 +88,7 @@
 .memberTagBox {
     display: inline-block;
     height: 70px;
-    width: 180px;
+    width: 100px;
 }
 .memberTag {
     display: table-cell;
