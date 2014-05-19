@@ -77,7 +77,7 @@
     display: inline-block;
 }
 .memberImageStar {
-    background: no-repeat url(http://ssl.gstatic.com/s2/oz/images/sprites/communities-9c0a17ce2ead705b02d3c5f1ab319fa3.png) -17px 0;
+    background: no-repeat url(../images/general/home-sprite.png) -17px 0;
     height: 20px;
     width: 20px;
     bottom: 0;
