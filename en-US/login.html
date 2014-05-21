@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html xmlns:ng="http://angularjs.org" ng-app id="ng-app">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=0.5">
+<title>Master Template</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/themeA.css">
+<link rel="stylesheet" href="css/icon.css">
+<link rel="stylesheet" href="css/boxSetup.css">
+<link rel="stylesheet" href="css/textfield.css">
+<link rel="stylesheet" href="css/login.css">
+<style>
+    body {
+        background-image: url(images/login/login-bg.jpg);
+        background-size: cover;
+        background-position: center center;
+        margin: 0;
+        padding: 0;
+    }
+</style>
+</head>
+
+<body>
+    <div id=login-header>
+        <h2>miniBean</h2>
+    </div>
+    <div class="login-container">
+        <div class="login-box">
+            <img src="images/login/login-pic.png" alt="title-image"/>
+            <div><h2><b>歡迎來到小萌豆!</b></h2><p>歡迎來到小萌豆!</p></div>
+            <h1><b>請加入小萌豆的大家庭!</b></h1>
+        </div>
+        <div class="login-box" id="login-section">
+            <ul>
+                <li><img src="./images/login/login_flag.png" /><h4>會員登入</h4></li>
+                <li><a href="#"><img src="images/login/facebook_acc.jpg" alt="login-via-facebook"/></a></li>
+                <li><img src="images/login/Facebook_icon_2013.jpg" alt="fb-icon" /><a href="#" title="user-name" >Keith Lei</a><a href="#" title="user-name" >Keith Lei</a><span title="fd-num">27</span><p>個其他朋友使用</p><a href="#">miniBean</a></li>
+                <li class="login-fd-list">
+                    <a href="#"><img src="./images/login/login_fd_icon.jpg" /></a><a href="#"><img src="./images/login/login_fd_icon.jpg" /></a><a href="#"><img src="./images/login/login_fd_icon.jpg" /></a><a href="#"><img src="./images/login/login_fd_icon.jpg" /></a>
+                </li>
+                <hr />
+                <li>
+                    <form id="login-info-wrapper" name="login-info" method="post" action="">
+                        <label for="Login email"></label>
+                        <input type="text" name="login-email" id="login-email" class="general-textfield" placeholder="Email" />
+                        <label for="Login password"></label>
+                        <input type="password" name="login-password" id="login-password" class="general-textfield" placeholder="Password" />
+                        <label for="Login state"></label>
+                        <input type="checkbox" name="login-state" id="login-state" /><p>Remember Me</p><a href="#">Forgot Password?</a>
+                        <input type="submit" name="login-btn" id="login-btn" value="Login" />
+                    </form>
+                </li>
+                <li id="login-newacc"><p>Or <a href="#">Sign up now</a></p></li>
+            </ul>
+        </div>
+    </div>
+    <div id="login-footer">
+        <p><a href="#">關於</a><a href="#">幫助中心</a><a href="#">使用條款</a><a href="#">私隱政策</a><a href="#">Cookies</a><a href="#">刊登廣告</a></p>
+    </div>
+<script type="text/javascript" src="js/angular.min.js"></script>
+<script type="text/javascript" src="js/ui-bootstrap-tpls-0.10.0.min.js"></script>
+</body>
+</html>
