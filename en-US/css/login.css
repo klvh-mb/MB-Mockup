@@ -171,7 +171,7 @@ ul, li {
 #login-info-wrapper p {
     padding: 0 7px;
     color: gray;
-    font-size: small;
+    font-size: 11px;
     float: left;
 }
 #login-password {
@@ -244,7 +244,7 @@ ul, li {
     text-shadow: 0 1px 0 rgba(255,255,255,0.5);
 }
 #login-newacc {
-    margin-top: 10px;
+    margin-top: 15px;
 }
 #login-newacc p {
     color: gray;
