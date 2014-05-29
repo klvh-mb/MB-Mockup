@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html xmlns:ng="http://angularjs.org" ng-app id="ng-app">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=0.5">
+<title>Master Template</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/icon.css">
+<link rel="stylesheet" href="css/boxSetup.css">
+<link rel="stylesheet" href="css/textfield.css">
+<link rel="stylesheet" href="css/message.css">
+<link rel="stylesheet" href="css/themeA.css">
+<link rel="stylesheet" href="css/themeA.append.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="header-wrapper">
+            <p class="pull-left">LOGOFO</p>
+            <a href="#"><img src="images/general/icon_png/w_profile.png" /></a>
+            <a href="#"><img src="images/general/icon_png/w_notification.png" /></a>
+            <form id="main-search" name="main-search" method="post" action="">
+                <label for="Main Search"></label>
+                <input type="text" name="main-search-field" id="main-search-field" class="general-textfield" />
+                <input type="submit" id="submit-search" name="submit-search" value=" " class="icon-box icon-title-search">
+            </form>
+            <div class="right-side">
+                <a href="./index.html">我的首頁</a>
+                <a href="#"><img src="images/general/icon_png/w_home.png" /></a>
+                <a href="#"><img src="images/general/icon_png/w_setup.png" /></a>
+            </div>
+        </div>
+    </div>
+    <div class="themeA-container">
+        <div class="row">
+        <div class="col-md-8 col-sm-8 col-xs-8 col-md-offset-2 col-sm-offset-2 col-xs-offset-2">
+            <div id="message-box" class="general-box">
+                <div id="message-list">
+                    <div class="con-title">訊息</div>
+                    <!-- <div id="message-search">
+                        <form id="message-searchwrapper" name="message-search" method="post" action="">
+                            <label for="Search Message"></label>
+                            <input type="text" name="message-searchfield" id="message-searchfield" placeholder="搜尋" />
+                            <input id="message-search-icon" name="message-search-icon" type="submit" value=" " class="icon-box icon-title-search" />
+                        </form>
+                    </div> -->
+                    <ul>
+                        <li class="message-list-active">
+                            <img src="./images/message/message_userpic.jpg" />
+                            <div><h5>Donutt HK</h5><p>hello donutt hk</p></div>
+                            <div><p>14:32</p><a href="#" class="message-notice">29</a><a class="message-favorited" href="#favorited">Favorited</a></div>
+                        </li>
+                        <li class="message-list-unread">
+                            <img src="./images/message/message_userpic.jpg" />
+                            <div><h5>Donutt HK</h5><p>hello donutt hk</p></div>
+                            <div><p>14:32</p><a href="#" class="message-notice">49</a><a href="#favorite" class="message-favorite">Favorite</a></div>
+                        </li>
+                        <li>
+                            <img src="./images/message/message_userpic.jpg" />
+                            <div><h5>Donutt HK</h5><p>hello donutt hk</p></div>
+                            <div><p>14:32</p><a class="message-del-icon" href="#"></a><p class="message-toolstip">刪除</p><a href="#favorite" class="message-favorite">Favorite</a></div>
+                        </li>
+                        <li>
+                            <img src="./images/message/message_userpic.jpg" />
+                            <div><h5>Donutt HK</h5><p>hello donutt hk</p></div>
+                            <div><p>14:32</p><a href="#" class="message-notice">9</a><a href="#favorite" class="message-favorite">Favorite</a></div>
+                        </li>
+                        <li>
+                            <img src="./images/message/message_userpic.jpg" />
+                            <div><h5>Donutt HK</h5><p>hello donutt hk</p></div>
+                            <div><p>14:32</p><a class="message-del-icon" href="#"></a><p class="message-toolstip">刪除</p><a class="message-favorited" href="#favorited">Favorited</a></div>
+                        </li>
+                        <li>
+                            <img src="./images/message/message_userpic.jpg" />
+                            <div><h5>Donutt HK</h5><p>hello donutt hk</p></div>
+                            <div><p>14:32</p><a class="message-del-icon" href="#"></a><p class="message-toolstip">刪除</p><a class="message-favorited" href="#favorited">Favorited</a></div>
+                        </li>
+                    </ul>
+                </div>
+                <div id="message-content">
+                    <div class="con-title">訊息
+                        <div class="pull-right">
+                            <a class="toolsbox toolsbox-start" href="#">新訊息</a>
+                            <!-- <a class="toolsbox toolsbox-end" href="#"><span class="icon-box icon-title-search"></span></a> -->
+                        </div>  
+                    </div>
+                    <ul>
+                        <li class="message-user">
+                            <p class="message-timer">May 24th, 09:23pm</p>
+                            <div><img src="./images/message/message_userpic.jpg" /><p class="message-text">hello left~~hello left~~hello left~~hello left~~hello left~~hello left~~hello left~~hello left~~hello left~~hello left~~hello left~~hello left~~hello left~~hello left~~hello left~~hello left~~hello left~~hello left~~hello left~~hello left~~hello left~~hello left~~hello left~~hello left~~hello left~~hello left~~hello left~~hello left~~</p></div>
+                        </li>
+                        <li class="message-replier">
+                            <p class="message-timer">May 24th, 09:23pm</p>
+                            <div><img src="./images/message/message_userpic.jpg" /><p class="message-text">hello right~~hello right~~hello right~~hello right~~hello right~~hello right~~hello right~~hello right~~hello right~~hello right~~hello right~~hello right~~hello right~~hello right~~hello right~~hello right~~hello right~~hello right~~hello right~~hello right~~hello right~~hello right~~hello right~~hello right~~hello right~~hello right~~hello right~~</p></div>
+                        </li>
+                        <li class="message-user">
+                            <p class="message-timer">May 24th, 09:23pm</p>
+                            <div><img src="./images/message/message_userpic.jpg" />
+                                <div class="message-image"><img src="./images/message/message_image.jpg" /><p>hello~~hello~~hello~~hello~~hello~~hello~~hello~~hello~~hello~~hello~~hello~~hello~~hello~~hello~~hello~~hello~~hello~~hello~~hello~~hello~~</p></div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="message-entry">
+                        <form method="post" action="">
+                            <div><img src="./images/message/message_image.jpg" /><a href="#">x</a></div>
+                            <label for="Input Message"></label>
+                            <textarea rows="4" cols="70" name="message-inputfield"></textarea>
+                            <a href="#emo" id="message-emo-icon" class="icon-box icon-title-emo"></a>
+                            <div id="message-emo-box">
+                                <table border="0" cellspacing="0" cellpadding="0">
+                                  <tr>
+                                    <td><a href="#"><img src="./images/general/message_emo_icon/temp.png" /></a></td>
+                                    <td><a href="#"><img src="./images/general/message_emo_icon/temp.png" /></a></td>
+                                    <td><a href="#"><img src="./images/general/message_emo_icon/temp.png" /></a></td>
+                                    <td><a href="#"><img src="./images/general/message_emo_icon/temp.png" /></a></td>
+                                    <td><a href="#"><img src="./images/general/message_emo_icon/temp.png" /></a></td>
+                                    <td><a href="#"><img src="./images/general/message_emo_icon/temp.png" /></a></td>
+                                    <td><a href="#"><img src="./images/general/message_emo_icon/temp.png" /></a></td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="#"><img src="./images/general/message_emo_icon/temp.png" /></a></td>
+                                    <td><a href="#"><img src="./images/general/message_emo_icon/temp.png" /></a></td>
+                                    <td><a href="#"><img src="./images/general/message_emo_icon/temp.png" /></a></td>
+                                    <td><a href="#"><img src="./images/general/message_emo_icon/temp.png" /></a></td>
+                                    <td><a href="#"><img src="./images/general/message_emo_icon/temp.png" /></a></td>
+                                    <td><a href="#"><img src="./images/general/message_emo_icon/temp.png" /></a></td>
+                                    <td><a href="#"><img src="./images/general/message_emo_icon/temp.png" /></a></td>
+                                  </tr>
+                                  <tr>
+                                    <td><a href="#"><img src="./images/general/message_emo_icon/temp.png" /></a></td>
+                                    <td><a href="#"><img src="./images/general/message_emo_icon/temp.png" /></a></td>
+                                    <td><a href="#"><img src="./images/general/message_emo_icon/temp.png" /></a></td>
+                                    <td><a href="#"><img src="./images/general/message_emo_icon/temp.png" /></a></td>
+                                    <td><a href="#"><img src="./images/general/message_emo_icon/temp.png" /></a></td>
+                                    <td><a href="#"><img src="./images/general/message_emo_icon/temp.png" /></a></td>
+                                    <td><a href="#"><img src="./images/general/message_emo_icon/temp.png" /></a></td>
+                                  </tr>
+                                </table>
+                            </div>
+                            <a href="#" id="message-uploadphoto"></a>
+                            <a href="#" id="message-send"></a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div id="back-to-top">
+        <a href="#"><span class="icon-title-arrow-up"></span>Top</a>
+    </div>
+<script type="text/javascript" src="js/angular.min.js"></script>
+<script type="text/javascript" src="js/ui-bootstrap-tpls-0.10.0.min.js"></script>
+</body>
+</html>
