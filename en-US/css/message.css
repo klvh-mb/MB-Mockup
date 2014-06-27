@@ -182,6 +182,9 @@ ul p {color: gray; font-size: small;}
     left: 5px;
     top: 7px;
 }
+#message-content p {
+    color: #111111;
+}
 #message-content ul {
     width: 100%;
     height: 100%;
@@ -195,9 +198,14 @@ ul p {color: gray; font-size: small;}
     left: 43%;
     opacity: 0.7;
 }
+.message-timestamp {
+    color: gray;
+    font-size: x-small;
+    opacity: 0.8;
+    display: block;
+}
 #message-content li {
     padding: 10px;
-    
 }
 #message-content li img {
     border-radius: 5px;
@@ -572,4 +580,10 @@ ul p {color: gray; font-size: small;}
     position: absolute;
     right: 0;
     top: 0;
+}
+.icon-title-emo {
+    background-image: url(../images/general/icon_png/message_emo_icon.jpg);
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+    background-position: center center;
 }
