@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MiniBean</title>
+<link rel="stylesheet" href="./css/bootstrap.min.css">
+<link rel="stylesheet" href="./css/index_custom.css">
+<link rel="stylesheet" href="./css/index-login.css">
+<link rel="stylesheet" href="./css/index-icon.css">
+<link rel="stylesheet" href="./css/index-textfield.css">
+    <style type="text/css">
+        body {background-image: url("./images/index/main_bg.jpg"); background-position: center bottom; background-repeat: no-repeat; background-size: cover;}
+    </style>
+</head>
+<body>
+    <div id="top-header">
+        <div>
+            <a href="#">新會員登記</a>
+            <a href="#">登入</a>
+        </div>
+    </div>
+    <div class="container" id="container-fix-width">
+        <div class="row" id="header">
+            <div class="col-md-3 col-sm-3 col-xs-3" id="main-logo"><a href="#"><img src="./images/index/logo.png" /></a></div>
+            <div id="main-menu">
+                <ul>
+                    <li class="col-md-1 col-sm-1 col-xs-1"><a href="#"><img src="./images/index/icon_mainMenu_home.png"/></a></li>
+                    <li class="col-md-1 col-sm-1 col-xs-1"><a href="#"><img src="./images/index/icon_mainMenu_magazine.png"/></a></li>
+                    <li class="col-md-1 col-sm-1 col-xs-1"><a href="#"><img src="./images/index/icon_mainMenu_libuary.png"/></a></li>
+                    <li class="col-md-1 col-sm-1 col-xs-1"><a href="#"><img src="./images/index/icon_mainMenu_myMiniBean.png"/></a></li>
+                    <li class="col-md-1 col-sm-1 col-xs-1"><a href="#"><img src="./images/index/icon_mainMenu_tools.png"/></a></li>
+                    <li class="col-md-1 col-sm-1 col-xs-1"><a href="#"><img src="./images/index/icon_mainMenu_article.png"/></a></li>
+                    <li class="col-md-3 col-sm-3 col-xs-3">
+                        <form id="index-search" name="index-search" method="post" action="">
+                            <label for="Index Search"></label>
+                            <input type="text" name="index-search-field" id="index-search-field" class="general-textfield" />
+                            <input type="submit" id="submit-search" name="submit-search" value=" " class="index-icon-box index-icon-search" />
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row" id="main-content">
+            <div class="col-md-9 col-sm-9 col-xs-9 box-a" id="slider">
+                <div>
+                    <img src="./images/index/slider_pic.jpg" />
+                    <div id="slider-description"><h4><a href="#">可愛動物套裝, T恤+可愛褲子</a></h4><p>Size: 80, 90, 95    $110</p></div>
+                </div>
+                <ul>
+                    <li><h5><a href="#">可愛動物套裝......</a></h5><p>Size: 80, 90, 95    $110</p></li>
+                    <li><h5><a href="#">可愛動物套裝......</a></h5><p>Size: 80, 90, 95    $110</p></li>
+                    <li><h5><a href="#">可愛動物套裝......</a></h5><p>Size: 80, 90, 95    $110</p></li>
+                    <li><h5><a href="#">可愛動物套裝......</a></h5><p>Size: 80, 90, 95    $110</p></li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-3 login-box" id="login-section">
+            <ul>
+                <li><img src="./images/index/login/login_flag.png" /><h4>會員登入</h4></li>
+                <li><a href="#"><img src="images/index/login/facebook_acc.png" alt="login-via-facebook"/></a></li>
+                <li><p>註: 小萌豆絕對不會發佈或留言到您的facebook 帳戶中</p></li>
+                <hr />
+                <li>
+                    <form id="login-info-wrapper" name="login-info" method="post" action="">
+                        <label for="Login email"></label>
+                        <input type="text" name="login-email" id="login-email" class="general-textfield" placeholder="電郵" />
+                        <label for="Login password"></label>
+                        <input type="password" name="login-password" id="login-password" class="general-textfield" placeholder="密碼" />
+                        <label for="Login state"></label>
+                        <input type="checkbox" name="login-state" id="login-state" /><p>維持我的登入狀態。</p><a href="#">忘記密碼?</a>
+                        <input type="submit" name="login-btn" id="login-btn" value="登入" />
+                    </form>
+                </li>
+                <li id="login-newacc"><p>還未成為會員? <a href="#">立即登記</a></p></li>
+            </ul>
+        </div>
+            <div class="col-md-9 col-sm-9 col-xs-9 box-a" id="hot-talk">
+                <img src="./images/index/title_hotTalk.png" />
+                <div class="col-md-8 col-sm-8 col-xs-8 col-md-push-2 col-sm-push-2 col-xs-push-2">
+                    <h5>討論標題討論標題討論標題討論標題討論標題討論標題討論標題討論標題討論標題討論標題討論標題討論標題</h5>
+                    <span class="small" id="hot-talk-id">用戶名稱</span><span class="small" id="hot-talk-time">時間</span>
+                    <p>內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容..內容內容內容內容內容內容內容內容容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容..內容內容內容內容內容內容容內容內容內容內容內容內容容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容..內容內容內容內容內容內容內容內容內容內容內容......................</p>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="magazine">
+            <div class="col-md-6 col-sm-6 col-xs-6 box-a" id="topic-a">
+                <h4>標題標題標題標題標題標題標題標題標題標題標題</h4>
+                <div><img src="./images/index/topic_photo.jpg" /><p>寶寶開始學習用吸管飲水未?  好多時寶寶飲開奶樽都要一段時間先識用飲管，而且好多寶寶習慣左大力飲奶咀型嘅奶樽，所以一開始用飲管會好易濁親架。呢一款飲管學習杯嘅設計用左比較粗嘅飲管，而且當寶寶啜嘅時候D飲品唔會沖得太勁而濁親，十分貼心!  當寶寶習慣左一排就可以俾佢地用普通飲管架啦!</p></div>
+                <div><a href="#" class="topic-btn topic-share"></a><a href="#" class="topic-btn topic-like"></a></div>
+                <div><img src="./images/index/topic_footer_a.jpg" /></div>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-6 box-a" id="topic-b">
+                <h4>標題標題標題標題標題標題標題標題標題標題標題</h4>
+                <div><img src="./images/index/topic_photo.jpg" /><p>寶寶開始學習用吸管飲水未?  好多時寶寶飲開奶樽都要一段時間先識用飲管，而且好多寶寶習慣左大力飲奶咀型嘅奶樽，所以一開始用飲管會好易濁親架。呢一款飲管學習杯嘅設計用左比較粗嘅飲管，而且當寶寶啜嘅時候D飲品唔會沖得太勁而濁親，十分貼心!  當寶寶習慣左一排就可以俾佢地用普通飲管架啦!</p></div>
+                <div><a href="#" class="topic-btn topic-share"></a><a href="#" class="topic-btn topic-liked"></a></div>
+                <div><img src="./images/index/topic_footer_b.png" /></div>
+            </div>
+        </div>
+        <div class="row" id="article">
+            <div class="col-md-4 col-sm-4 col-xs-4 box-a" id="article-hot">
+                <div class="article-title"><span class="article-title-icon article-title-icon-hot"></span><img src="./images/index/article_title_hot.png" /><a class="pull-right" href="#">更多</a></div>
+                <div class="article-content">
+                    <h4>帶孩子去旅行,可惜80%的家長都不懂!</h4>
+                    <p>在聊聊為什麽帶孩子旅行前，先說說為什麽很多父母不願意帶孩子去旅行。據我的觀察和了解，原因很直接，大致有以下幾種：壹、記不住。孩子太小，看什麽都記不住，去了也白去，浪費金錢和精力；二、危險。小孩子出去愛生病，在人生地不熟的地方不安全，吃不習慣玩不好；三、麻煩。出去帶很多孩子的東西，大人還要照顧孩子，陪孩子太累，玩得不盡興。恩，我們就來看看這些原因是不是站得住腳。</p>
+                    <a class="pull-right" href="#">詳細內容</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-4 box-a" id="article-latest">
+                <div class="article-title"><span class="article-title-icon article-title-icon-latest"></span><img src="./images/index/article_title_latest.png" /><a class="pull-right" href="#">更多</a></div>
+                <div class="article-content">
+                    <h4>帶孩子去旅行,可惜80%的家長都不懂!</h4>
+                    <p>在聊聊為什麽帶孩子旅行前，先說說為什麽很多父母不願意帶孩子去旅行。據我的觀察和了解，原因很直接，大致有以下幾種：壹、記不住。孩子太小，看什麽都記不住，去了也白去，浪費金錢和精力；二、危險。小孩子出去愛生病，在人生地不熟的地方不安全，吃不習慣玩不好；三、麻煩。出去帶很多孩子的東西，大人還要照顧孩子，陪孩子太累，玩得不盡興。恩，我們就來看看這些原因是不是站得住腳。</p>
+                    <a class="pull-right" href="#">詳細內容</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-4 box-a" id="article-recommend">
+                <div class="article-title"><span class="article-title-icon article-title-icon-recommend"></span><img src="./images/index/article_title_recommend.png" /><a class="pull-right" href="#">更多</a></div>
+                <div class="article-content">
+                    <h4>帶孩子去旅行,可惜80%的家長都不懂!</h4>
+                    <p>在聊聊為什麽帶孩子旅行前，先說說為什麽很多父母不願意帶孩子去旅行。據我的觀察和了解，原因很直接，大致有以下幾種：壹、記不住。孩子太小，看什麽都記不住，去了也白去，浪費金錢和精力；二、危險。小孩子出去愛生病，在人生地不熟的地方不安全，吃不習慣玩不好；三、麻煩。出去帶很多孩子的東西，大人還要照顧孩子，陪孩子太累，玩得不盡興。恩，我們就來看看這些原因是不是站得住腳。</p>
+                    <a class="pull-right" href="#">詳細內容</a>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="footer"></div>
+    </div>
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
